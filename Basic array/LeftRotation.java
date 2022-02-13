@@ -7,21 +7,27 @@ import java.util.*;
 public class LeftRotation {
     public static void main(String[] args) {
         int[] b=new int[]{1,2,3,4,5};
-        int[] c=new int[b.length];
+        int n=2;
 
-        int clength=0;
-
-        for(int i=b.length-1;i>=0;i--){
-            c[clength]=b[i];
-            clength++;
-        }
+        System.out.println("Before operation...\n");
 
         for(int i=0;i<b.length;i++){
             System.out.print(" "+b[i]);
         }
-        System.out.println();
-        for(int i=0;i<c.length;i++){
-            System.out.print(" "+c[i]);
+
+        for(int i=0;i<n;i++){
+            int j,first;
+            first=b[0];
+
+            for(j=0;j<b.length-1;j++){
+                b[j]=b[j+1];
+            }
+            b[j]=first;
+        }
+
+        System.out.println("\nafter operation....\n");
+        for(int i=0;i<b.length;i++){
+            System.out.print(" "+b[i]);
         }
     }
 }
