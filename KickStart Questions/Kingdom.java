@@ -24,6 +24,7 @@ public class Kingdom {
 
         char lastLetter=character.charAt(character.length()-1);
         
+        //Apply  linear search in the operation
         for (int i = 0; i < letters.length; i++) {
             if(lastLetter==letters[i]){
                 return "Alice.";
