@@ -2,6 +2,8 @@
     "java.project.sourcePaths": [
         "Basic array",
         "KickStart Questions",
-        "OOP'S Concept"
+        "OOP'S Concept",
+        ".",
+        "Collection Framework"
     ]
 }
