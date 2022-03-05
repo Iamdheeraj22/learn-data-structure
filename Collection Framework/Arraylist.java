@@ -90,3 +90,27 @@ public class Arraylist {
        
     }
 }
+
+
+//Difference between list and arraylist
+
+/****
+ * Difference between List and ArrayList:-
+
+    :- List is an interface and arraylist is a class of collections framework.
+
+    :- List is extends the Collection framework and ArrayList implements the list interface and extends the Abstractlist class.
+
+    :- Namespace :-
+
+            :- list ==> System.Collection.Generic
+            :- arrayLsit ==> System.collection
+
+    :- List stores the element sequesntially and identified by the index number.
+
+        And arraylist is a dynamic array ; it can grow when required.
+
+    
+    :-List is provides the faster manipulationof objects.Arraylist provide the slow manipulationon objects compared to list
+ * 
+ */
