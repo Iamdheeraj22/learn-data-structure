@@ -10,9 +10,9 @@ public class RightRotation {
 
         //right operation 
         for(int i=0;i<n;i++){
-            int j,last;
+            int last;
             last=b[b.length-1];
-            for(j=b.length-1;j>0;j--){
+            for(int j=b.length-1;j>0;j--){
                 b[j]=b[j-1];
             }
             b[0]=last;
