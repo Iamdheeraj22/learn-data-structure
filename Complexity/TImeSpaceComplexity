@@ -1,0 +1,34 @@
+Time Complexity :- 
+        The time complexity is computational complexity that describes the time recuired to execute an algorithm. The time complexity of an algorithm is the amount of time it takes to each statement to complete. as a result highly dependent on processed data. It also aids in defining algo effectiveness and evaluating its performance.
+
+Space Complexity :- 
+        When  an algorithm is run on computer , it necessities a certain amount of space. The amount of memory used by a program to execute it is represented by its space complexity.
+
+        Because a program recuires memory to store input & output  and temporal values while running , the space complexity is auxiliary input space.
+
+-----------------
+
+asymptotic algorithm :- 
+       
+       asymptotic notation are programming language that allow you to analyse an algorithm's running time by identifying its behavior as it's input sige grows.
+
+       This is reffered to as an algorithm growth rate.
+
+
+       You can't compare two algorithms  head to head. It is heavily influenced by the tools and hardwre you use for comperesion , such as the operating system  , CPU Model , Processor generation.
+
+
+    Even if you caculate the time & space complexity for two algo running on the same system , the subtle changes in the system enviorment may effect their time and space somplexity.
+
+There are three types of the notation.
+
+     :- Big-O notation
+     :- Big-Omega notation
+     :- Big-Theta notation
+
+     
+We can have three  cases to analyse an algo:
+
+    :- The Worst Case
+    :- average case 
+    :- best case
