@@ -1,6 +1,8 @@
 Time Complexity :- 
         The time complexity is computational complexity that describes the time recuired to execute an algorithm. The time complexity of an algorithm is the amount of time it takes to each statement to complete. as a result highly dependent on processed data. It also aids in defining algo effectiveness and evaluating its performance.
 
+        Time taken by an algorithm as a function of the length of input.
+
 Space Complexity :- 
         When  an algorithm is run on computer , it necessities a certain amount of space. The amount of memory used by a program to execute it is represented by its space complexity.
 
@@ -22,7 +24,16 @@ asymptotic algorithm :-
 
 There are three types of the notation.
 
-     :- Big-O notation
+     :- Big-O notation :-
+          This notation represents the upper bound of the running time of algorithm. Thus , it gives the worst-case complexity of an algorithm.
+
+
+          Properties :-
+
+              :- Constant Multiplication
+              :- Summation Function
+              :- Polynomial Function
+              :- Logrithm Function
      :- Big-Omega notation
      :- Big-Theta notation
 
